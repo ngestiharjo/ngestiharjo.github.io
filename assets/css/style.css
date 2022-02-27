@@ -187,6 +187,10 @@ section {
   line-height: 0;
 }
 
+.gambar.hilang {
+  display: none !important;
+}
+
 .header .logo img {
   max-height: 40px;
   margin-right: 6px;
@@ -2718,7 +2722,7 @@ section {
 }
 
 .footer .footer-top {
-  background: white url(../img/footer-bg.png) no-repeat right top;
+  background: white ;
   background-size: contain;
   border-top: 1px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
